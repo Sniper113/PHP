@@ -1,4 +1,5 @@
 <?php
+
 ?>
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
@@ -14,7 +15,14 @@
     <div id="header">
         <a id="logo">Thanh Lam</a>
         <div id="user-login">
-            <p>Xin chao <strong>Thanh Lam</strong>(<a href="">Exit</a>)</p>
+            <?php
+            echo info_user(user_login());
+            ?>
+            <p>Xin chao <strong>
+                    <?php
+                    if (is_login()) echo info_user('fullname');
+                    ?>
+                </strong>(<a href="?page=logout">Exit</a>)</p>
         </div>
         <ul id="main-menu">
             <li><a href="?page=home">Index</a></li>

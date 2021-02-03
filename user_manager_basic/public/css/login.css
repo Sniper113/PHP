@@ -45,5 +45,8 @@ h1.page-title{
     padding: 0px 0px 20px;
 }
 
-
+p.error{
+    font-size: 13px;
+    color: red;
+}
 

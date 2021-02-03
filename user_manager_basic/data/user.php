@@ -9,7 +9,7 @@
  * - id
  */
 
-$list_user = array(
+$list_users = array(
   1 => array(
       'id' => 1,
       'fullname' => 'Thanh Lam',
