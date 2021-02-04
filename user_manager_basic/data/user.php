@@ -14,7 +14,7 @@ $list_users = array(
       'id' => 1,
       'fullname' => 'Thanh Lam',
       'username' => 'thanhlam11',
-      'password' => md5('thanhlam'),
+      'password' => md5('Thanhlam11@'),
       'email' => 'thanhlam@gmail.com'
   ),
     2 => array(

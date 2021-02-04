@@ -16,7 +16,7 @@
         <a id="logo">Thanh Lam</a>
         <div id="user-login">
             <?php
-            echo info_user(user_login());
+            //echo info_user('fullname');
             ?>
             <p>Xin chao <strong>
                     <?php
